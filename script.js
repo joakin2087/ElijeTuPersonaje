@@ -41,16 +41,21 @@ personajes.forEach((personaje)=>{
     });
     })
     })
-    const btnRedes = document.getElementById ("iconoPie");
-    btnRedes.addEventListener ("click" , (alerta) =>{
-      let confirmTexto = "¿Desea salir de la página?";
-      if (confirm(confirmTexto) == true) {
-       const apuAudio = document.getElementById("apu");
-      apuAudio.play();
-      }else{
-        window.location.reload();
-      } 
-
-    });  
+     const btnRedes = document.getElementById ("iconoPie");
+      btnRedes.addEventListener('click', (enlace) => {
+        if (confirm('¿Estás seguro de que deseas seguir este enlace?')) { 
+          const apuAudio = document.getElementById("apu");
+          apuAudio.play();
+         
+        }else{
+           enlace.preventDefault();
+                  }
+      });
     
 
+      
+    
+  
+    
+    
+  
