@@ -32,8 +32,8 @@ h1{
 }
 .item{
     display: flex;
-    width: 60%;
-    height: 300px; 
+    width: 70%;
+    height: 400px;
     transition: 0.3s;
 }
 .item:hover{
@@ -97,7 +97,49 @@ h1{
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
+#iconoPie{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vh;
+}
+#pieTitulo{
+    color: #FFf699;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #1b1b1b,
+    1px -1px 0 #1b1b1b,
+    -1px 1px 0 #1b1b1b,
+    1px 1px 0 #1b1b1b;
+    margin: 10px;
+  
+}
+
+.icon{
+   display: flex;
+   align-items: center;
+  
+}
+.bi{
+    margin: 5px; 
+    color: #800080;
+    text-shadow:  
+    -1px -1px 0 #ffF699,
+    1px -1px 0 #ffF699,
+    -1px 1px 0 #ffF699,
+    1px 1px 0 #ffF699;
+   
+}
         
+  .icon:hover { scale: 1.5  }
+
+  .icon:hover.active{
+    background-color: #1b1b1b;
+  
+    
+    
+  }
     
 
 

@@ -6,8 +6,7 @@ personajes[3] = document.getElementById("Bart");
 
 personajes.forEach((personaje)=>{
   personaje.addEventListener ("click", () =>{
-
-     
+         
     const btnM = document.querySelector("#btn");
     const modalCentro = document.querySelector("#modal");
     const modalContent = document.querySelector(".modalContent");
@@ -15,11 +14,7 @@ personajes.forEach((personaje)=>{
     
     modalCentro.classList.add("active");
     contenido.innerHTML = "¡Has elegido a " + personaje.id +"!" +" ¡Buena eleccíón!";
-  
- /*    if ( (personaje) === 1){
-     const Homeroaudio = document.getElementById("HomeroVoz");
-    Homeroaudio.play();
-  } */
+
   switch (personajes.indexOf(personaje)) {
     case 0:
       const margeAudio = document.getElementById("margeVoz");
@@ -41,12 +36,21 @@ personajes.forEach((personaje)=>{
     console.log(personajes);
     
   }
-    
-   
     btnM.addEventListener("click", (Cerrar) => {
     modalCentro.classList.remove("active");
     });
     })
     })
+    const btnRedes = document.getElementById ("iconoPie");
+    btnRedes.addEventListener ("click" , (alerta) =>{
+      let confirmTexto = "¿Desea salir de la página?";
+      if (confirm(confirmTexto) == true) {
+       const apuAudio = document.getElementById("apu");
+      apuAudio.play();
+      }else{
+        window.location.reload();
+      } 
+
+    });  
     
 
