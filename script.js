@@ -43,13 +43,12 @@ personajes.forEach((personaje)=>{
     })
      const btnRedes = document.getElementById ("iconoPie");
       btnRedes.addEventListener('click', (enlace) => {
-        if (confirm('¿Estás seguro de que deseas seguir este enlace?')) { 
+        if (confirm('¿Estás seguro que deseas salir de esta página?')) { 
           const apuAudio = document.getElementById("apu");
-          apuAudio.play();
-         
+          apuAudio.play();  
         }else{
            enlace.preventDefault();
-                  }
+             }
       });
     
 
