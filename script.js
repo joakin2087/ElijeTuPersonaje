@@ -41,18 +41,11 @@ personajes.forEach((personaje)=>{
     });
     })
     })
-     const btnRedes = document.getElementById ("iconoPie");
+      const btnRedes = document.getElementById ("iconos");
       btnRedes.addEventListener('click', (enlace) => {
-        if (confirm('¿Estás seguro que deseas salir de esta página?')) { 
-          const apuAudio = document.getElementById("apu");
-          apuAudio.play();  
-        }else{
-           enlace.preventDefault();
-             }
+      const prontosAudio = document.getElementById("vuelvaProntos")
+      confirm ('¿Deseas salir del sitio?') ? prontosAudio.play() :  enlace.preventDefault();
       });
-    
-
-      
     
   
     
