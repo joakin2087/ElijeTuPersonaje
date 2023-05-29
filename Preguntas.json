@@ -1,0 +1,133 @@
+{
+    "preguntas": [
+{
+    "Marge": [
+      {
+        "pregunta": "¿Cómo se llaman las hermanas de Marge?",
+        "Opciones": ["Paty y Velma","Paty y Selma","Selma y Brandi "]
+      
+      },
+       {
+        "pregunta": "¿Qué vende Marge en el episodio el turbio y oscuro mundo de Marge Simpson  ?",
+        "Opciones": ["Croissant","Waffles", "Pretzels"]
+      
+      },
+       {
+        "pregunta": "¿Con quién fue al baile de graduación Marge?",
+        "Opciones": ["Artie Ziff", "Bartney Gumble","Homero Simpson"]
+      
+      },
+   {
+        "pregunta": "¿Cuál es el apellido de soltera de Marge?",
+        "Opciones": ["Bieber","Bouvier","Bovio"]
+      
+      },
+      {
+        "pregunta": "¿Qué trabajo no tuvo marge hasta el momento?",
+        "Opciones": ["Agente de bienes raíces","Policía", "Paleontóloga"]
+      
+      }
+  
+    ]
+ },
+  
+
+  {
+    "Homero": [
+  
+          {
+        "pregunta": "¿Cuál es el segundo nombre de Homero?",
+        "Opciones": ["Jason","Jay","Jaime"]
+      
+      },
+       {
+        "pregunta": "¿Cuándo es el cumpleaños de Homero?",
+       "Opciones":["12 de Mayo","12 de Marzo","12 de Febrero"]
+      
+       },
+       {
+        "pregunta": "¿Cómo se llama el hermano de Homero?",
+        "Opciones": ["Herber","Horace","Hilario"]
+      
+      },
+       {
+        "pregunta": "¿Qué puesto tiene Homero en la planta nuclear?",
+        "Opciones": ["Supervisor","Asistente","Técnico Nuclear"]
+      
+      },
+       {
+        "pregunta": "¿Qué profesión no fue Homero hasta la fecha?",
+        "Opciones": ["Maquinista", "Astronauta", "Biólogo marino"]
+      
+      }
+  
+    ]
+  },
+  
+  
+  
+   {
+    "Lisa": [
+  
+          {
+        "pregunta": "¿Quién ayuda a componer una canción para el cumpleaños de Lisa?",
+        "Opciones": ["Michael Jackson", "Encías sangrantes Murphy", "Barry white"]
+      
+      },
+       {
+        "pregunta": "¿Cuál es el trabajo del futuro de Lisa según el episodio Bart al futuro?",
+        "Opciones":[ "Ambientologa","Científica","Presidenta"]
+      
+      },
+       {
+        "pregunta": "¿Qué diorama crea Lisa en el capítulo la rival de Lisa ?",
+        "Opciones": ["Oliver Twist","Abadía de Westminster ","Corazón delator"]
+      
+      },
+       {
+        "pregunta": "¿Quién enseña la importancia del jazz a Lisa?",
+        "Opciones": ["Encías Sangrantes Murphy","El profesor Dewey Largo ","Tito Puente"]
+      
+      },
+       {
+        "pregunta": "¿En qué posición se destaca Lisa en Hockey sobre hielo?",
+        "Opciones": ["Delantera", "Defensa","Arquera"]
+      
+      }
+  
+    ]
+  },
+  
+  {
+    "Bart": [
+  
+          {
+        "pregunta": "¿Cómo firma  Bart cuando pinta con aerosol?",
+        "Opciones": ["El Barto","Le Bart", "Bart"]
+      
+      },
+       {
+        "pregunta": "¿Cuál fue la primera palabra que dijo Bart?",
+        "Opciones": ["Mama", "Homero", "Ay carmba"]
+      
+      },
+       {
+        "pregunta": "¿Qué profesión tiene Bart según el capítulo tomy y dayly la Pelicula?",
+        "Opciones":[ "Músico","Striper", "Juez de la Suprema corte"]
+      },
+       {
+        "pregunta": "¿Quien es el mayor ídolo de Bart?",
+        "Opciones": ["Krusty el Payaso","El hombre radioactivo","Tomy y daily"]
+      
+      },
+       {
+        "Pregunta":  "¿Quién es el enemigo Mortal de Bart?",
+        "Opciones": ["El director Skiner","Jimbo Rosso","Bob Patiño"]	
+      }
+  
+    ]
+
+   }
+ ]
+}
+  

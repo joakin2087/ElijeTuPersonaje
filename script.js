@@ -46,8 +46,17 @@ personajes.forEach((personaje)=>{
       const prontosAudio = document.getElementById("vuelvaProntos")
       confirm ('¿Deseas salir del sitio?') ? prontosAudio.play() :  enlace.preventDefault();
       });
-    
-  
-    
+      
+      
+      
+      fetch('Preguntas.json')
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('pregunta').innerHTML = data.preguntas[0].Marge[1].pregunta; 
+        document.getElementById('respuesta1').innerHTML = data.preguntas[0].Marge[1].Opciones[0];
+        document.getElementById('respuesta2').innerHTML = data.preguntas[0].Marge[1].Opciones[1];
+        document.getElementById('respuesta3').innerHTML = data.preguntas[0].Marge[1].Opciones[2];
+      })
+     
     
   
