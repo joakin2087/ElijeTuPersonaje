@@ -4,13 +4,12 @@
     "Marge": [
       {
         "pregunta": "¿Cómo se llaman las hermanas de Marge?",
-        "Opciones": ["Paty y Velma","Paty y Selma","Selma y Brandi "]
+        "Opciones": ["Paty y Velma","Paty y Selma","Selma y Brandi"]
       
       },
        {
         "pregunta": "¿Qué vende Marge en el episodio el turbio y oscuro mundo de Marge Simpson  ?",
-        "Opciones": ["Croissant","Waffles", "Pretzels"]
-      
+        "Opciones": ["Croissant","Waffles","Pretzels"]
       },
        {
         "pregunta": "¿Con quién fue al baile de graduación Marge?",

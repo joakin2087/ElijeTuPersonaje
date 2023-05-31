@@ -40,19 +40,20 @@ h1{
     border-radius: 15px;
 }
 
-#btn {
+#btn, .btns {
     background-color: #ffF699;
     color:#1b1b1b;
     border: solid 2px  ;
     border-radius: 10px;
     text-align: center;
-    display: flex;
-    align-self: center;
-    font-family: 'Caveat Brush', cursive;
-    
-    
+    font-family: 'Caveat Brush', cursive; 
+    transition: 0.3s;  
   }
-  
+  #btn:hover,.btns:hover{
+    background-color: #fce90e;
+   
+}
+
   #modal {
     position:fixed;
     width: 30%;
