@@ -4,26 +4,25 @@
     "Marge": [
       {
         "pregunta": "¿Cómo se llaman las hermanas de Marge?",
-        "Opciones": ["Paty y Velma","Paty y Selma","Selma y Brandi"]
-      
+        "Opciones": [{ "texto":"Paty y Velma", "result":false},{"texto" : "Paty y Selma", "result": true},{"texto" : "Selma y Brandi","result" : false}] 
       },
        {
         "pregunta": "¿Qué vende Marge en el episodio el turbio y oscuro mundo de Marge Simpson  ?",
-        "Opciones": ["Croissant","Waffles","Pretzels"]
+        "Opciones": [{"texto":"Croissant","result":false},{"texto":"Waffles","result":false},{"texto":"Pretzels","result":true}]
       },
        {
         "pregunta": "¿Con quién fue al baile de graduación Marge?",
-        "Opciones": ["Artie Ziff", "Bartney Gumble","Homero Simpson"]
+        "Opciones": [{"texto":"Artie Ziff","result":true}, {"texto":"Bartney Gumble","result":false},{"texto":"Homero Simpson","result":false}]
       
       },
    {
         "pregunta": "¿Cuál es el apellido de soltera de Marge?",
-        "Opciones": ["Bieber","Bouvier","Bovio"]
+        "Opciones": [{"texto":"Bieber","result":false},{"texto":"Bouvier","result":true},{"texto":"Bovio","result":false}]
       
       },
       {
         "pregunta": "¿Qué trabajo no tuvo marge hasta el momento?",
-        "Opciones": ["Agente de bienes raíces","Policía", "Paleontóloga"]
+        "Opciones": [{"texto": "Agente de bienes raíces","result":false},{"texto":"Policía","result":false}, {"texto":"Paleontóloga","result":true}]
       
       }
   
@@ -36,27 +35,27 @@
   
           {
         "pregunta": "¿Cuál es el segundo nombre de Homero?",
-        "Opciones": ["Jason","Jay","Jaime"]
+        "Opciones": [{"texto":"Jason","result":false},{"texto":"Jay","result":true},{"texto":"Jaime","result":false}]
       
       },
        {
         "pregunta": "¿Cuándo es el cumpleaños de Homero?",
-       "Opciones":["12 de Mayo","12 de Marzo","12 de Febrero"]
+       "Opciones":[{"texto":"12 de Mayo","result":true},{"texto":"12 de Marzo","result":false},{"texto":"12 de Febrero","result":false}]
       
        },
        {
         "pregunta": "¿Cómo se llama el hermano de Homero?",
-        "Opciones": ["Herber","Horace","Hilario"]
+        "Opciones": [{"texto":"Herber","result":true},{"texto":"Horace","result":false},{"texto":"Hilario","result":false}]
       
       },
        {
         "pregunta": "¿Qué puesto tiene Homero en la planta nuclear?",
-        "Opciones": ["Supervisor","Asistente","Técnico Nuclear"]
+        "Opciones": [{"texto":"Supervisor","result":false},{"texto":"Asistente","result":false},{"texto":"Técnico Nuclear","result":true}]
       
       },
        {
         "pregunta": "¿Qué profesión no fue Homero hasta la fecha?",
-        "Opciones": ["Maquinista", "Astronauta", "Biólogo marino"]
+        "Opciones": [{"texto":"Maquinista","result":false},{ "texto":"Astronauta","result":false},{ "texto":"Biólogo marino","result":true}]
       
       }
   
@@ -70,27 +69,27 @@
   
           {
         "pregunta": "¿Quién ayuda a componer una canción para el cumpleaños de Lisa?",
-        "Opciones": ["Michael Jackson", "Encías sangrantes Murphy", "Barry white"]
+        "Opciones": [{"texto":"Michael Jackson","result":true}, {"texto":"Encías sangrantes Murphy","result":false}, {"texto":"Barry white","result":false}]
       
       },
        {
         "pregunta": "¿Cuál es el trabajo del futuro de Lisa según el episodio Bart al futuro?",
-        "Opciones":[ "Ambientologa","Científica","Presidenta"]
+        "Opciones":[ {"texto":"Ambientologa","result":false},{"texto":"Científica","result":false},{"texto":"Presidenta","result":true}]
       
       },
        {
         "pregunta": "¿Qué diorama crea Lisa en el capítulo la rival de Lisa ?",
-        "Opciones": ["Oliver Twist","Abadía de Westminster ","Corazón delator"]
+        "Opciones": [{"texto":"Oliver Twist","result":true},{"texto":"Abadía de Westminster","result":false},{"texto":"Corazón delator","result":false}]
       
       },
        {
         "pregunta": "¿Quién enseña la importancia del jazz a Lisa?",
-        "Opciones": ["Encías Sangrantes Murphy","El profesor Dewey Largo ","Tito Puente"]
+        "Opciones": [{"texto":"Encías Sangrantes Murphy","result":true},{"texto":"El profesor Dewey Largo","result":false},{"texto":"Tito Puente","result":false}]
       
       },
        {
         "pregunta": "¿En qué posición se destaca Lisa en Hockey sobre hielo?",
-        "Opciones": ["Delantera", "Defensa","Arquera"]
+        "Opciones": [{"texto":"Delantera","result":false}, {"texto":"Defensa","result":false},{"texto":"Arquera","result":true}]
       
       }
   
@@ -102,26 +101,26 @@
   
           {
         "pregunta": "¿Cómo firma  Bart cuando pinta con aerosol?",
-        "Opciones": ["El Barto","Le Bart", "Bart"]
+        "Opciones": [{"texto":"El Barto","result":true},{"texto":"Le Bart","result":false}, {"texto":"Bart","result":true}]
       
       },
        {
         "pregunta": "¿Cuál fue la primera palabra que dijo Bart?",
-        "Opciones": ["Mama", "Homero", "Ay carmba"]
+        "Opciones": [{"texto":"Mama","result":false},{ "texto":"Homero","result":false},{ "texto":"Ay carmba","result":true}]
       
       },
        {
         "pregunta": "¿Qué profesión tiene Bart según el capítulo tomy y dayly la Pelicula?",
-        "Opciones":[ "Músico","Striper", "Juez de la Suprema corte"]
+        "Opciones":[ {"texto":"Músico","result":false},{"texto":"Striper","result":false}, {"texto":"Juez de la Suprema corte","result":true}]
       },
        {
         "pregunta": "¿Quien es el mayor ídolo de Bart?",
-        "Opciones": ["Krusty el Payaso","El hombre radioactivo","Tomy y daily"]
+        "Opciones": [{"texto":"Krusty el Payaso","result":true},{"texto":"El hombre radioactivo","result":false},{"texto":"Tomy y daily","result":false}]
       
       },
        {
         "Pregunta":  "¿Quién es el enemigo Mortal de Bart?",
-        "Opciones": ["El director Skiner","Jimbo Rosso","Bob Patiño"]	
+        "Opciones": [{"texto":"El director Skiner","result":false},{"texto":"Jimbo Rosso","result":false},{"texto":"Bob Patiño","result":true}]	
       }
   
     ]

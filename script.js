@@ -26,9 +26,9 @@ personajes.forEach((personaje)=>{
     .then(response => response.json())
     .then(data => {
     document.getElementById('pregunta').innerHTML = data.preguntas[0].Marge[random].pregunta; 
-    document.getElementById('respuesta1').innerHTML = data.preguntas[0].Marge[random].Opciones[0];
-    document.getElementById('respuesta2').innerHTML = data.preguntas[0].Marge[random].Opciones[1];
-    document.getElementById('respuesta3').innerHTML = data.preguntas[0].Marge[random].Opciones[2];
+    document.getElementById('respuesta1').innerHTML = data.preguntas[0].Marge[random].Opciones[0].texto;
+    document.getElementById('respuesta2').innerHTML = data.preguntas[0].Marge[random].Opciones[1].texto;
+    document.getElementById('respuesta3').innerHTML = data.preguntas[0].Marge[random].Opciones[2].texto;
   })
 
       break;
@@ -39,9 +39,9 @@ personajes.forEach((personaje)=>{
       .then(response => response.json())
       .then(data => {
       document.getElementById('pregunta').innerHTML = data.preguntas[1].Homero[random].pregunta; 
-      document.getElementById('respuesta1').innerHTML = data.preguntas[1].Homero[random].Opciones[0];
-      document.getElementById('respuesta2').innerHTML = data.preguntas[1].Homero[random].Opciones[1];
-      document.getElementById('respuesta3').innerHTML = data.preguntas[1].Homero[random].Opciones[2];
+      document.getElementById('respuesta1').innerHTML = data.preguntas[1].Homero[random].Opciones[0].texto;
+      document.getElementById('respuesta2').innerHTML = data.preguntas[1].Homero[random].Opciones[1].texto;
+      document.getElementById('respuesta3').innerHTML = data.preguntas[1].Homero[random].Opciones[2].texto;
       })
       break;
     case 2:
@@ -51,9 +51,9 @@ personajes.forEach((personaje)=>{
       .then(response => response.json())
       .then(data => {
       document.getElementById('pregunta').innerHTML = data.preguntas[2].Lisa[random].pregunta; 
-      document.getElementById('respuesta1').innerHTML = data.preguntas[2].Lisa[random].Opciones[0];
-      document.getElementById('respuesta2').innerHTML = data.preguntas[2].Lisa[random].Opciones[1];
-      document.getElementById('respuesta3').innerHTML = data.preguntas[2].Lisa[random].Opciones[2];
+      document.getElementById('respuesta1').innerHTML = data.preguntas[2].Lisa[random].Opciones[0].texto;
+      document.getElementById('respuesta2').innerHTML = data.preguntas[2].Lisa[random].Opciones[1].texto;
+      document.getElementById('respuesta3').innerHTML = data.preguntas[2].Lisa[random].Opciones[2].texto;
       })
       break;
     case 3:
@@ -63,9 +63,9 @@ personajes.forEach((personaje)=>{
     .then(response => response.json())
     .then(data => {
     document.getElementById('pregunta').innerHTML = data.preguntas[3].Bart[random].pregunta; 
-    document.getElementById('respuesta1').innerHTML = data.preguntas[3].Bart[random].Opciones[0];
-    document.getElementById('respuesta2').innerHTML = data.preguntas[3].Bart[random].Opciones[1];
-    document.getElementById('respuesta3').innerHTML = data.preguntas[3].Bart[random].Opciones[2];
+    document.getElementById('respuesta1').innerHTML = data.preguntas[3].Bart[random].Opciones[0].texto;
+    document.getElementById('respuesta2').innerHTML = data.preguntas[3].Bart[random].Opciones[1].texto;
+    document.getElementById('respuesta3').innerHTML = data.preguntas[3].Bart[random].Opciones[2].texto;
     })
     break;
     default:
