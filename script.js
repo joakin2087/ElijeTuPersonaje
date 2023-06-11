@@ -4,22 +4,25 @@ personajes[1] = document.getElementById("Homero");
 personajes[2] = document.getElementById("Lisa");
 personajes[3] = document.getElementById("Bart");
 
-
-
+let score = 0;
+intentos = 2;
+const btnM = document.querySelector("#btn");
+const modalCentro = document.querySelector("#modal");
+const modalContent = document.querySelector(".modalContent");
+const contenido = document.querySelector(".contenido");
 
 personajes.forEach((personaje)=>{
   personaje.addEventListener ("click", () =>{
-         
-    const btnM = document.querySelector("#btn");
-    const modalCentro = document.querySelector("#modal");
-    const modalContent = document.querySelector(".modalContent");
-    const contenido = document.querySelector(".contenido");
+    
+    
+ 
     
     modalCentro.classList.add("active");
     contenido.innerHTML = "¡Has elegido a " + personaje.id +"!" +" ¡Buena eleccíón!";
 
    
   let random = Math.floor(Math.random() * 5);
+ 
 
 
   
@@ -91,47 +94,56 @@ personajes.forEach((personaje)=>{
   
     })
     break;
-    default:
-     
-     
-   
+    default:     
  
   }
-
-  
-    let form = document.getElementById('formulario');
-    let score = 0
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
-      let respuesta = document.querySelector('input[name="respuesta"]:checked').value;
-      
-   
-     if(respuesta === "true"){
-      const puntaje = document.getElementById('puntaje');
-      score++;
-      puntaje.style.visibility = "visible";
-      puntaje.innerHTML ="¡Felcitaciones, has acertado! sumas " + score +  " punto(s)";
-      score.parseint;
-      console.log(score);
-      modalCentro.classList.remove("active");
-      if(score === 15){
-        score = 0;
-      }
-    }
-    else{
-      contenido.innerHTML = "¡Sigue intentando, tu puedes!";
-    }
-    })
-
-    
-    
-  
 
     btnM.addEventListener("click", (Cerrar) => {
     modalCentro.classList.remove("active");
       })
  })
 })
+
+  const form = document.getElementById('formulario');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+   const respuesta = document.querySelector('input[name="respuesta"]:checked').value;
+   const puntaje = document.getElementById('puntaje');
+    if (respuesta === 'true' ) {
+     
+        score++;
+        puntaje.style.visibility = "visible";
+        puntaje.innerHTML ="¡Felcitaciones, has acertado! sumas " + score + " punto(s)"; 
+        modalCentro.classList.remove("active");
+        console.log(score);
+       
+
+        if (score === 15) {
+          if(confirm("¡Felicitaciones has ganado!¿Deseas jugar de nuevo?")){
+              score = 0;
+              puntaje.style.visibility = "hidden";
+              console.log(score);
+            }else{
+            score=0;
+            puntaje.style.visibility = "hidden";
+            console.log(score);
+            }
+                          }
+             
+                            }else{
+                              if(intentos<=0){  
+                                contenido.innerHTML = "¡Perdiste , sos alto pete!"; 
+                                intentos = 2 ; 
+                                modalCentro.classList.remove("active");
+                              }else{
+                              contenido.innerHTML = "¡Sigue intentando, tu puedes!¡Te queda " + (intentos) + " intentos" ; 
+                              intentos--;
+                            }}
+                            
+  
+  })
+
           
      
  
