@@ -133,7 +133,7 @@ personajes.forEach((personaje)=>{
              
                             }else{
                               if(intentos<=0){  
-                                contenido.innerHTML = "¡Perdiste , sos alto pete!"; 
+                                contenido.innerHTML = "¡Has perdido , no tienes más intentos!"; 
                                 intentos = 2 ; 
                                 modalCentro.classList.remove("active");
                               }else{
