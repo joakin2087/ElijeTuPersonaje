@@ -40,7 +40,7 @@ h1{
     border-radius: 15px;
 }
 
-#btn, .btns {
+#btn, #btns {
     background-color: #ffF699;
     color:#1b1b1b;
     border: solid 2px  ;
@@ -49,9 +49,14 @@ h1{
     font-family: 'Caveat Brush', cursive; 
     transition: 0.3s;  
   }
-  #btn:hover,.btns:hover{
+  #btn:hover,#btns:hover{
     background-color: #fce90e;
    
+}
+
+.disable{
+    filter: brightness(40%) grayscale(70%); 
+    
 }
 
   #modal {

@@ -7,7 +7,7 @@
         "Opciones": [{ "texto":"Paty y Velma", "result":false},{"texto" : "Paty y Selma", "result": true},{"texto" : "Selma y Brandi","result" : false}] 
       },
        {
-        "pregunta": "¿Qué vende Marge en el episodio el turbio y oscuro mundo de Marge Simpson  ?",
+        "pregunta": "¿Qué vende Marge en el episodio el turbio y oscuro mundo de Marge Simpson?",
         "Opciones": [{"texto":"Croissant","result":false},{"texto":"Waffles","result":false},{"texto":"Pretzels","result":true}]
       },
        {
@@ -119,7 +119,7 @@
       
       },
        {
-        "Pregunta":  "¿Quién es el enemigo Mortal de Bart?",
+        "pregunta":  "¿Quién es el enemigo Mortal de Bart?",
         "Opciones": [{"texto":"El director Skiner","result":false},{"texto":"Jimbo Rosso","result":false},{"texto":"Bob Patiño","result":true}]	
       }
   
